@@ -1,10 +1,10 @@
-#LokaGPT
+# LokaGPT
 
 A minimal, educational implementation of a character-level GPT model.
 Trained on a simple, tiny question/answer dataset to demonstrate end-to-end model training and text generation.
 
 Inspired by nanoGPT by Andrej Karpathy.
-##Features
+## Features
 
     Tiny Trivial Q&A dataset (six questions and answers)
 
@@ -22,7 +22,7 @@ Inspired by nanoGPT by Andrej Karpathy.
 
     Text sampling from the trained model
 
-##Project Structure
+## Project Structure
 |Part |	Description|
 | --- | --- |
 |Data Preparation |	Downloads and loads a small text dataset.|
@@ -30,7 +30,7 @@ Inspired by nanoGPT by Andrej Karpathy.
 |Model Definition	|Defines GPT components like attention, MLP, and transformer blocks.|
 |Training Script	|Fine-tunes the model on the dataset.|
 |Sampling Script	|Generates text from the trained model.|
-##How to Run
+## How to Run
 
     Clone or download this repository.
 
@@ -46,6 +46,6 @@ Inspired by nanoGPT by Andrej Karpathy.
 
         Sample generated answers.
 
-##Acknowledgements
+## Acknowledgements
 
     *Core components and ideas adapted from nanoGPT by Andrej Karpathy.
