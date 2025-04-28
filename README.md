@@ -6,21 +6,21 @@ Trained on a simple, tiny question/answer dataset to demonstrate end-to-end mode
 Inspired by nanoGPT by Andrej Karpathy.
 ## Features
 
-    *Tiny Trivial Q&A dataset (six questions and answers)
+ * Tiny Trivial Q&A dataset (six questions and answers)
 
-    *Character-level vocabulary encoding and decoding
+ * Character-level vocabulary encoding and decoding
 
-    *Custom GPT architecture including:
+ * Custom GPT architecture including:
 
-        *Self-attention mechanism
+     * Self-attention mechanism
 
-        *Multi-layer perceptron (MLP)
+     * Multi-layer perceptron (MLP)
 
-        *Layer normalization (LN)
+     * Layer normalization (LN)
 
-    *Training loop with hyperparameter controls
+ * Training loop with hyperparameter controls
 
-    *Text sampling from the trained model
+ * Text sampling from the trained model
 
 ## Project Structure
 |Part |	Description|
@@ -32,20 +32,20 @@ Inspired by nanoGPT by Andrej Karpathy.
 |Sampling Script	|Generates text from the trained model.|
 ## How to Run
 
-    Clone or download this repository.
+ 1. Clone or download this repository.
 
-    Install the required libraries:
+ 2. Install the required libraries:
 
-    pip install torch numpy
+          pip install torch numpy
 
-    Open and run the LokaGPT.ipynb notebook step-by-step:
-
-        It will automatically download the dataset.
-
-        Build and train the model.
-
-        Sample generated answers.
+ 3. Open and run the LokaGPT.ipynb notebook step-by-step:
+   
+      *  It will automatically download the dataset.
+   
+      *  Build and train the model.
+   
+      *  Sample generated answers.
 
 ## Acknowledgements
 
-    *Core components and ideas adapted from nanoGPT by Andrej Karpathy.
+* Core components and ideas adapted from nanoGPT by Andrej Karpathy.
