@@ -6,21 +6,21 @@ Trained on a simple, tiny question/answer dataset to demonstrate end-to-end mode
 Inspired by nanoGPT by Andrej Karpathy.
 ## Features
 
-    Tiny Trivial Q&A dataset (six questions and answers)
+    *Tiny Trivial Q&A dataset (six questions and answers)
 
-    Character-level vocabulary encoding and decoding
+    *Character-level vocabulary encoding and decoding
 
-    Custom GPT architecture including:
+    *Custom GPT architecture including:
 
-        Self-attention mechanism
+        *Self-attention mechanism
 
-        Multi-layer perceptron (MLP)
+        *Multi-layer perceptron (MLP)
 
-        Layer normalization (LN)
+        *Layer normalization (LN)
 
-    Training loop with hyperparameter controls
+    *Training loop with hyperparameter controls
 
-    Text sampling from the trained model
+    *Text sampling from the trained model
 
 ## Project Structure
 |Part |	Description|
